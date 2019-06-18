@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>用户注册</title>
+	<link rel="stylesheet" href="__PUBLIC__/Admin/left/css/index.css">
+	
+</head>
+<body>
+<div class="register">
+	<div class="tips">
+		<p>{$err|default="&nbsp;"}</p>
+	</div>
+	<form action="" method="POST" id="ajaxForm">
+		<ul>
+			<li>
+				<label for="">用户名</label>
+				<input  class="name" type="text" name="name" />
+			</li>
+			<li>
+				<label for="">设置密码</label>
+				<input class="password" type="password" name="password" />
+			</li>
+			<li>
+				<label for="">确认密码</label>
+				<input class="confirm"  type="password" name="confirm" />
+			</li>
+			<li>
+				<label for="">角色</label>
+				<select name="rid">	
+                    <option value="0">请选择角色</option>
+                    <foreach name="roleinfo" item="v">
+                    	<option value="{$v.role_id}">{$v.role_name}</option>
+                    </foreach>
+                </select>
+				
+			</li>
+			<li>
+				<label for=""></label>
+				<input class="submit" type="submit" value="立即注册"/>
+			</li>
+		</ul>
+		
+
+	</form>
+
+</div>
+</body>
+</html>

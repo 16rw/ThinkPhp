@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>用户注册</title>
+	<link rel="stylesheet" href="__PUBLIC__/Admin/left/css/index.css">
+	
+</head>
+<body>
+<div class="register">
+	<div class="tips">
+		<p>{$err|default="&nbsp;"}</p>
+	</div>
+	<form action=""  method="POST" id="ajaxForm">
+		<input type="hidden" name="mg_id" value="{$info.mg_id}">	
+		<ul>
+			<li>
+				<label for="">用户名</label>
+				<input  class="name" type="text" name="mg_name" value="{$info.mg_name}" />
+			</li>
+			<li>
+				<label for="">密码</label>
+				<input class="password" type="text" name="mg_pwd" value="{$info.mg_pwd}"  />
+			</li>
+			<li>
+				<label for="">角色</label>
+				<select name="role_id" >
+                    <option value="0">请选择角色</option>
+                    <foreach name="roleinfo" item="v">
+                    
+                    <option value="{$v.role_id}" <if condition="$info['role_id'] eq $v['role_id']">selected</if>  >{$v.role_name}</option>
+                    </foreach>
+                </select>
+				
+			</li>
+			<li>
+				<label for=""></label>
+				<input class="submit" type="submit" value="立即修改"/>
+			</li>
+		</ul>
+		
+
+	</form>
+
+</div>
+</body>
+</html>

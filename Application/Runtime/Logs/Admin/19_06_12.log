@@ -1,0 +1,241 @@
+[ 2019-06-12T09:46:16+08:00 ] 127.0.0.1 /index.php/Admin/Index/left.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND `auth_pid` = 0' at line 1
+ [ SQL语句 ] : SELECT * FROM `auth` WHERE `auth_id` IN () AND `auth_pid` = 0 
+
+[ 2019-06-12T12:40:02+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+ERR: syntax error, unexpected ')'
+
+[ 2019-06-12T12:40:59+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+ERR: syntax error, unexpected end of file
+
+[ 2019-06-12T12:41:42+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+ERR: syntax error, unexpected end of file
+
+[ 2019-06-12T12:41:46+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+ERR: syntax error, unexpected end of file
+
+[ 2019-06-12T12:42:47+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+ERR: syntax error, unexpected end of file
+
+[ 2019-06-12T12:44:18+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+ERR: syntax error, unexpected end of file
+
+[ 2019-06-12T12:46:47+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+ERR: syntax error, unexpected end of file
+
+[ 2019-06-12T12:50:17+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+ERR: Call to undefined function Admin\Common\find()
+
+[ 2019-06-12T12:50:55+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+ERR: syntax error, unexpected end of file
+
+[ 2019-06-12T12:51:06+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+ERR: syntax error, unexpected end of file
+
+[ 2019-06-12T12:51:20+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+ERR: syntax error, unexpected end of file
+
+[ 2019-06-12T12:53:15+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+ERR: syntax error, unexpected end of file
+
+[ 2019-06-12T12:53:18+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+ERR: syntax error, unexpected end of file
+
+[ 2019-06-12T12:53:33+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+ERR: syntax error, unexpected end of file
+
+[ 2019-06-12T12:53:41+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+ERR: syntax error, unexpected '<'
+
+[ 2019-06-12T12:54:10+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+ERR: syntax error, unexpected end of file
+
+[ 2019-06-12T12:57:08+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+ERR: syntax error, unexpected end of file
+
+[ 2019-06-12T12:57:18+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+ERR: syntax error, unexpected end of file
+
+[ 2019-06-12T13:16:58+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+ERR: 无法加载控制器:Order
+
+[ 2019-06-12T13:17:09+08:00 ] 127.0.0.1 /index.php/Admin/Manager/showlist
+ERR: 非法操作:showlist
+
+[ 2019-06-12T13:20:39+08:00 ] 127.0.0.1 /index.php/Admin/Auth/showlist
+ERR: syntax error, unexpected ';', expecting ']'
+
+[ 2019-06-12T13:24:49+08:00 ] 127.0.0.1 /index.php/Admin/Order/dayin
+ERR: 无法加载控制器:Order
+
+[ 2019-06-12T13:24:50+08:00 ] 127.0.0.1 /index.php/Admin/Order/tianjia
+ERR: 无法加载控制器:Order
+
+[ 2019-06-12T13:24:53+08:00 ] 127.0.0.1 /index.php/Admin/Category/showlist
+ERR: 无法加载控制器:Category
+
+[ 2019-06-12T13:28:24+08:00 ] 127.0.0.1 /index.php/Admin/Manager/showlist
+ERR: 非法操作:showlist
+
+[ 2019-06-12T13:28:35+08:00 ] 127.0.0.1 /index.php/Admin/Manager/showlist
+ERR: 非法操作:showlist
+
+[ 2019-06-12T15:57:38+08:00 ] 127.0.0.1 /index.php/Admin/Auth/tianjia.html
+ERR: Call to a member function add() on null
+
+[ 2019-06-12T16:10:40+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+ERR: 无法加载控制器:Order
+
+[ 2019-06-12T16:10:42+08:00 ] 127.0.0.1 /index.php/Admin/Order/dayin
+ERR: 无法加载控制器:Order
+
+[ 2019-06-12T16:10:43+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+ERR: 无法加载控制器:Order
+
+[ 2019-06-12T16:21:51+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+ERR: 无法加载控制器:Order
+
+[ 2019-06-12T16:21:52+08:00 ] 127.0.0.1 /index.php/Admin/Order/dayin
+ERR: 无法加载控制器:Order
+
+[ 2019-06-12T16:21:52+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+ERR: 无法加载控制器:Order
+
+[ 2019-06-12T16:21:53+08:00 ] 127.0.0.1 /index.php/Admin/Order/dayin
+ERR: 无法加载控制器:Order
+
+[ 2019-06-12T16:21:53+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+ERR: 无法加载控制器:Order
+
+[ 2019-06-12T16:21:54+08:00 ] 127.0.0.1 /index.php/Admin/Order/dayin
+ERR: 无法加载控制器:Order
+
+[ 2019-06-12T16:21:54+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+ERR: 无法加载控制器:Order
+
+[ 2019-06-12T16:21:54+08:00 ] 127.0.0.1 /index.php/Admin/Order/dayin
+ERR: 无法加载控制器:Order
+
+[ 2019-06-12T16:21:55+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+ERR: 无法加载控制器:Order
+
+[ 2019-06-12T16:21:55+08:00 ] 127.0.0.1 /index.php/Admin/Order/dayin
+ERR: 无法加载控制器:Order
+
+[ 2019-06-12T16:21:56+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+ERR: 无法加载控制器:Order
+
+[ 2019-06-12T16:24:58+08:00 ] 127.0.0.1 /index.php/Admin/Role/tianjia.html
+ERR: 非法操作:tianjia
+
+[ 2019-06-12T16:29:42+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+ERR: 无法加载控制器:Order
+
+[ 2019-06-12T16:29:45+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+ERR: 无法加载控制器:Order
+
+[ 2019-06-12T17:34:50+08:00 ] 127.0.0.1 /index.php/Admin/Manager/del/id/
+ERR: 非法操作:del
+
+[ 2019-06-12T17:41:45+08:00 ] 127.0.0.1 /index.php/Admin/Manager/showlist
+ERR: syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+
+[ 2019-06-12T17:45:31+08:00 ] 127.0.0.1 /index.php/Admin/Manager/upd/mg_id/503.html
+ERR: 非法操作:upd
+
+[ 2019-06-12T17:52:52+08:00 ] 127.0.0.1 /index.php/Admin/Manager/upd/mg_id/503.html
+ERR: 非法操作:upd
+
+[ 2019-06-12T17:53:49+08:00 ] 127.0.0.1 /index.php/Admin/Manager/upd/mg_id/503.html
+ERR: Call to a member function find() on null
+
+[ 2019-06-12T17:57:31+08:00 ] 127.0.0.1 /index.php/Admin/Manager/upd/mg_id/503.html
+ERR: Call to a member function find() on null
+
+[ 2019-06-12T17:58:07+08:00 ] 127.0.0.1 /index.php/Admin/Manager/upd/mg_id/503.html
+ERR: 模板不存在:./Application/Admin/View/Manager/userUpdate.html
+
+[ 2019-06-12T19:20:29+08:00 ] 127.0.0.1 /index.php/Admin/Manager/userUpdate.html
+ERR: 非法操作:userUpdate
+
+[ 2019-06-12T19:24:03+08:00 ] 127.0.0.1 /index.php/Admin/Manager/userList.html
+ERR: 非法操作:userList
+
+[ 2019-06-12T19:24:20+08:00 ] 127.0.0.1 /index.php/Admin/Manager/userList.html
+ERR: 非法操作:userList
+
+[ 2019-06-12T19:24:50+08:00 ] 127.0.0.1 /index.php/Admin/Manager/showist.html
+ERR: 非法操作:showist
+
+[ 2019-06-12T19:30:35+08:00 ] 127.0.0.1 /index.php/Admin/User/userSearch.html
+ERR: 1146:Table 'web_com.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+
+[ 2019-06-12T19:33:52+08:00 ] 127.0.0.1 /index.php/Admin/User/userSearch.html
+ERR: 1146:Table 'web_com.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+
+[ 2019-06-12T19:39:48+08:00 ] 127.0.0.1 /index.php/Admin/Manager/tianjia.html
+ERR: 非法操作:tianjia
+
+[ 2019-06-12T19:39:58+08:00 ] 127.0.0.1 /index.php/Admin/Manager/tianjia.html
+ERR: 非法操作:tianjia
+
+[ 2019-06-12T19:40:25+08:00 ] 127.0.0.1 /index.php/Admin/Manager/tianjia.html
+ERR: 非法操作:tianjia
+
+[ 2019-06-12T19:40:45+08:00 ] 127.0.0.1 /index.php/Admin/Manager/tianjia.html
+ERR: 非法操作:tianjia
+
+[ 2019-06-12T19:49:08+08:00 ] 127.0.0.1 /index.php/Admin/Role/tianjia.html
+ERR: 非法操作:tianjia
+
+[ 2019-06-12T19:50:02+08:00 ] 127.0.0.1 /index.php/Admin/Role/tianjia.html
+ERR: 非法操作:tianjia
+
+[ 2019-06-12T19:56:22+08:00 ] 127.0.0.1 /index.php/Admin/Role/tianjia.html
+ERR: syntax error, unexpected '}'
+
+[ 2019-06-12T19:56:33+08:00 ] 127.0.0.1 /index.php/Admin/Role/showlist
+ERR: syntax error, unexpected '}'
+
+[ 2019-06-12T19:56:36+08:00 ] 127.0.0.1 /index.php/Admin/Role/showlist
+ERR: syntax error, unexpected '}'
+
+[ 2019-06-12T19:56:37+08:00 ] 127.0.0.1 /index.php/Admin/Role/showlist
+ERR: syntax error, unexpected '}'
+
+[ 2019-06-12T19:56:38+08:00 ] 127.0.0.1 /index.php/Admin/Role/showlist
+ERR: syntax error, unexpected '}'
+
+[ 2019-06-12T19:56:38+08:00 ] 127.0.0.1 /index.php/Admin/Role/showlist
+ERR: syntax error, unexpected '}'
+
+[ 2019-06-12T19:56:51+08:00 ] 127.0.0.1 /index.php/Admin/Role/showlist
+ERR: syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+
+[ 2019-06-12T20:04:47+08:00 ] 127.0.0.1 /index.php/Admin/Role/distribute/role_id/31.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND `auth_pid` <> 0' at line 1
+ [ SQL语句 ] : SELECT * FROM `auth` WHERE `auth_id` IN () AND `auth_pid` <> 0 
+
+[ 2019-06-12T20:05:39+08:00 ] 127.0.0.1 /index.php/Admin/Role/distribute/role_id/31.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND `auth_pid` <> 0' at line 1
+ [ SQL语句 ] : SELECT * FROM `auth` WHERE `auth_id` IN () AND `auth_pid` <> 0 
+
+[ 2019-06-12T20:21:09+08:00 ] 127.0.0.1 /index.php/Admin/Role/distribute/role_id/30.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND `auth_pid` <> 0' at line 1
+ [ SQL语句 ] : SELECT * FROM `auth` WHERE `auth_id` IN () AND `auth_pid` <> 0 
+
+[ 2019-06-12T20:44:09+08:00 ] 127.0.0.1 /index.php/Admin/Role/tianjia.html
+ERR: syntax error, unexpected ';', expecting ',' or ')'
+
+[ 2019-06-12T23:25:36+08:00 ] 127.0.0.1 /index.php/Admin/Role/showlist
+ERR: Class 'Admin\Controller\Page' not found
+
+[ 2019-06-12T23:27:26+08:00 ] 127.0.0.1 /index.php/Admin/Manager/showlist
+ERR: Class 'Admin\Controller\Page' not found
+
+[ 2019-06-12T23:28:40+08:00 ] 127.0.0.1 /index.php/Admin/Auth/showlist
+ERR: 1054:Unknown column 'role_id' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `auth` ORDER BY role_id desc LIMIT 0,5  
+

@@ -1,0 +1,40 @@
+[ 2019-06-13T10:19:41+08:00 ] 127.0.0.1 /index.php/Admin/Role/upd/role_id/32.html
+ERR: 模板不存在:./Application/Admin/View/Role/adminUpdate.html
+
+[ 2019-06-13T10:28:57+08:00 ] 127.0.0.1 /index.php/Admin/Role/upd/role_id/32.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND `auth_pid` <> 0' at line 1
+ [ SQL语句 ] : SELECT * FROM `auth` WHERE `auth_id` IN () AND `auth_pid` <> 0 
+
+[ 2019-06-13T10:35:13+08:00 ] 127.0.0.1 /index.php/Admin/Auth/authSearch.html
+ERR: 非法操作:authSearch
+
+[ 2019-06-13T10:44:32+08:00 ] 127.0.0.1 /index.php/Admin/Auth/upd/auth_id/114.html
+ERR: 模板不存在:./Application/Admin/View/Auth/adminUpdate.html
+
+[ 2019-06-13T10:44:54+08:00 ] 127.0.0.1 /index.php/Admin/Auth/upd/auth_id/114.html
+ERR: 模板不存在:./Application/Admin/View/Auth/adminUpdate.html
+
+[ 2019-06-13T13:24:23+08:00 ] 127.0.0.1 /index.php/Admin/User/userSearch.html
+ERR: 1146:Table 'web_com.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+
+[ 2019-06-13T13:39:15+08:00 ] 127.0.0.1 /index.php/Admin/User/userList
+ERR: 1146:Table 'web_com.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+
+[ 2019-06-13T13:44:26+08:00 ] 127.0.0.1 /index.php/Admin/User/userList
+ERR: Call to a member function count() on null
+
+[ 2019-06-13T13:44:59+08:00 ] 127.0.0.1 /index.php/Admin/User/userList
+ERR: Class 'Admin\Controller\Page' not found
+
+[ 2019-06-13T13:45:59+08:00 ] 127.0.0.1 /index.php/Admin/User/userList
+ERR: 1054:Unknown column 'goods_id' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `user` ORDER BY goods_id desc LIMIT 0,5  
+
+[ 2019-06-13T14:46:15+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsSearch.html
+ERR: Call to a member function where() on null
+
+[ 2019-06-13T14:47:15+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsSearch.html
+ERR: Call to a member function where() on null
+

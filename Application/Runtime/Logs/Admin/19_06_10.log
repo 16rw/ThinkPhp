@@ -1,0 +1,64 @@
+[ 2019-06-10T21:00:35+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showlist.html
+ERR: 无法加载控制器:Goods
+
+[ 2019-06-10T21:01:20+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showlist.html
+ERR: 无法加载控制器:Goods
+
+[ 2019-06-10T21:01:29+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showlist.html
+ERR: 无法加载控制器:Goods
+
+[ 2019-06-10T21:02:14+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showlist.html
+ERR: 无法加载控制器:Goods
+
+[ 2019-06-10T21:04:00+08:00 ] 127.0.0.1 /index.php/Admin/Goods/adminLogin
+ERR: syntax error, unexpected ';', expecting ',' or ')'
+
+[ 2019-06-10T21:05:08+08:00 ] 127.0.0.1 /index.php/Admin/Goods/adminLogin
+ERR: syntax error, unexpected ';', expecting ',' or ')'
+
+[ 2019-06-10T21:05:44+08:00 ] 127.0.0.1 /index.php/Admin/Goods/adminLogin
+ERR: 非法操作:adminLogin
+
+[ 2019-06-10T21:05:59+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showlist
+ERR: 1146:Table 'web_con.goods' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `goods`
+
+[ 2019-06-10T21:06:36+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showlist
+ERR: syntax error, unexpected '{'
+
+[ 2019-06-10T21:07:57+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showlist
+ERR: syntax error, unexpected '{'
+
+[ 2019-06-10T21:08:37+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showlist
+ERR: syntax error, unexpected '{'
+
+[ 2019-06-10T21:08:47+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showlist
+ERR: syntax error, unexpected '')?'' (T_CONSTANT_ENCAPSED_STRING), expecting ';'
+
+[ 2019-06-10T21:09:36+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showlist
+ERR: 1054:Unknown column 'goods_id' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `goods` ORDER BY goods_id desc LIMIT 0,5  
+
+[ 2019-06-10T21:12:45+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showlist
+ERR: 1054:Unknown column 'goods_id' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `goods` ORDER BY goods_id desc LIMIT 0,5  
+
+[ 2019-06-10T21:12:57+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showlist
+ERR: syntax error, unexpected '')?'' (T_CONSTANT_ENCAPSED_STRING), expecting ';'
+
+[ 2019-06-10T21:14:09+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showlist
+ERR: 1054:Unknown column 'goods_id' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `goods` ORDER BY goods_id desc LIMIT 0,5  
+
+[ 2019-06-10T21:17:01+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showlist.html
+ERR: 1054:Unknown column 'goods_id' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `goods` ORDER BY goods_id desc LIMIT 0,5  
+
+[ 2019-06-10T21:20:26+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showlist.html?&page=-3
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-20,5' at line 1
+ [ SQL语句 ] : SELECT * FROM `goods` ORDER BY goods_id desc LIMIT -20,5  
+
+[ 2019-06-10T22:03:34+08:00 ] 127.0.0.1 /index.php/Admin/User/userList.html
+ERR: 1146:Table 'web_com.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+

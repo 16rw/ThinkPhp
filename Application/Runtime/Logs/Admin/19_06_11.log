@@ -1,0 +1,79 @@
+[ 2019-06-11T14:58:31+08:00 ] 127.0.0.1 /index.php/Admin/Index/boot
+ERR: 1054:Unknown column 'id' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `manager` ORDER BY id desc 
+
+[ 2019-06-11T14:59:18+08:00 ] 127.0.0.1 /index.php/Admin/Index/boot
+ERR: 1054:Unknown column 'id' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `manager` ORDER BY id desc 
+
+[ 2019-06-11T15:00:02+08:00 ] 127.0.0.1 /index.php/Admin/Index/boot
+ERR: 1054:Unknown column 'id' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `manager` ORDER BY id desc 
+
+[ 2019-06-11T19:47:24+08:00 ] 127.0.0.1 /index.php/Admin/Index/boot
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND `auth_pid` = 0' at line 1
+ [ SQL语句 ] : SELECT * FROM `auth` WHERE `auth_id` IN () AND `auth_pid` = 0 
+
+[ 2019-06-11T19:48:10+08:00 ] 127.0.0.1 /index.php/Admin/Index/boot
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND `auth_pid` = 0' at line 1
+ [ SQL语句 ] : SELECT * FROM `auth` WHERE `auth_id` IN () AND `auth_pid` = 0 
+
+[ 2019-06-11T19:48:11+08:00 ] 127.0.0.1 /index.php/Admin/Index/boot
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND `auth_pid` = 0' at line 1
+ [ SQL语句 ] : SELECT * FROM `auth` WHERE `auth_id` IN () AND `auth_pid` = 0 
+
+[ 2019-06-11T19:48:37+08:00 ] 127.0.0.1 /index.php/Admin/Index/boot.html
+ERR: XML标签语法错误 : condition="$vv["auth_pid"] eq $v["auth_id"]"
+
+[ 2019-06-11T19:55:42+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+ERR: 非法操作:top
+
+[ 2019-06-11T21:07:05+08:00 ] 127.0.0.1 /index.php/Admin/Index/css/nav.css
+ERR: 非法操作:css
+
+[ 2019-06-11T21:07:06+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2019-06-11T21:07:06+08:00 ] 127.0.0.1 /index.php/Admin/Index/font/iconfont.css
+ERR: 非法操作:font
+
+[ 2019-06-11T21:07:06+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/nav.js
+ERR: 非法操作:js
+
+[ 2019-06-11T21:08:52+08:00 ] 127.0.0.1 /index.php/Admin/Index/css/nav.css
+ERR: 非法操作:css
+
+[ 2019-06-11T21:08:52+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2019-06-11T21:08:52+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/nav.js
+ERR: 非法操作:js
+
+[ 2019-06-11T21:08:52+08:00 ] 127.0.0.1 /index.php/Admin/Index/font/iconfont.css
+ERR: 非法操作:font
+
+[ 2019-06-11T21:08:52+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/nav.js
+ERR: 非法操作:js
+
+[ 2019-06-11T21:09:18+08:00 ] 127.0.0.1 /index.php/Admin/Index/css/nav.css
+ERR: 非法操作:css
+
+[ 2019-06-11T21:09:18+08:00 ] 127.0.0.1 /index.php/Admin/Index/font/iconfont.css
+ERR: 非法操作:font
+
+[ 2019-06-11T21:09:18+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2019-06-11T21:09:18+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/nav.js
+ERR: 非法操作:js
+
+[ 2019-06-11T21:28:12+08:00 ] 127.0.0.1 /index.php/Admin/Index/css/nav.css
+ERR: 非法操作:css
+
+[ 2019-06-11T21:47:28+08:00 ] 127.0.0.1 /index.php/Admin/Index/left.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND `auth_pid` = 0' at line 1
+ [ SQL语句 ] : SELECT * FROM `auth` WHERE `auth_id` IN () AND `auth_pid` = 0 
+
+[ 2019-06-11T22:02:58+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+

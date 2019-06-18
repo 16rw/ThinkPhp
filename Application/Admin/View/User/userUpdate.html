@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>用户注册</title>
+	<link rel="stylesheet" href="__PUBLIC__/Admin/left/css/index.css">
+	
+</head>
+<body>
+<div class="register">
+	<div class="tips">
+		<p>{$err|default="&nbsp;"}</p>
+	</div>
+	<form action=""  method="POST" id="ajaxForm">
+		<input type="hidden" name="id" value="{$info.id}">	
+		<ul>
+			<li>
+				<label for="">用户名</label>
+				<input  class="name" type="text" name="username" value="{$info.username}" />
+			</li>
+			<li>
+				<label for="">密码</label>
+				<input class="password" type="text" name="password" value="{$info.password}"  />
+			</li>
+			<li>
+				<label for="">年龄</label>
+				<input class="confirm"  type="text" name="age"  value="{$info.age}" />
+			</li>
+			<li>
+				<label for=""></label>
+				<input class="submit" type="submit" value="立即修改"/>
+			</li>
+		</ul>
+		
+
+	</form>
+
+</div>
+</body>
+</html>

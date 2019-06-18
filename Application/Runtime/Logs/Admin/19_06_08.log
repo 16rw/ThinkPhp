@@ -1,0 +1,905 @@
+[ 2019-06-08T12:22:34+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.php/Admin/Index/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002823s ]
+ERR: 非法操作:index.php
+
+[ 2019-06-08T12:23:32+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.php/Admin/Index/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+ERR: 非法操作:index.php
+
+[ 2019-06-08T12:24:01+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.php/Admin/Index/add
+ERR: 非法操作:index.php
+
+[ 2019-06-08T12:24:58+08:00 ] 127.0.0.1 /index.php/Admin/Index/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000616s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000656s ]
+
+[ 2019-06-08T12:26:32+08:00 ] 127.0.0.1 /index.php/Admin/Index/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001079s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000601s ]
+
+[ 2019-06-08T12:26:42+08:00 ] 127.0.0.1 /index.php/Admin/Index/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000533s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000570s ]
+
+[ 2019-06-08T12:29:12+08:00 ] 127.0.0.1 /index.php/Admin/Index/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001223s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001284s ]
+
+[ 2019-06-08T12:29:34+08:00 ] 127.0.0.1 /index.php/Admin/Index/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000540s ]
+
+[ 2019-06-08T12:30:53+08:00 ] 127.0.0.1 /index.php/Admin/Index/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000410s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000440s ]
+
+[ 2019-06-08T12:54:23+08:00 ] 127.0.0.1 /index.php/Admin/Index/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000523s ]
+
+[ 2019-06-08T13:04:08+08:00 ] 127.0.0.1 /index.php/Admin/Index/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0052s ]
+SQL: INSERT INTO `manager` (`adminname`,`password`,`age`,`adminrole`,`state`) VALUES ('wuhao','123','50','1','正常') [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000569s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000588s ]
+
+[ 2019-06-08T13:04:58+08:00 ] 127.0.0.1 /index.php/Admin/Index/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001243s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0047s ]
+SQL: INSERT INTO `manager` (`adminname`,`password`,`age`,`adminrole`,`state`) VALUES ('php','456','2','1','正常') [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000568s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000590s ]
+
+[ 2019-06-08T13:29:52+08:00 ] 127.0.0.1 /index.php/Admin/Index/showUser
+ERR: 模板不存在:./Application/Admin/View/Admin/Index/index.html
+
+[ 2019-06-08T14:02:39+08:00 ] 127.0.0.1 /index.php/Admin/Index/showUser.html
+ERR: 非法操作:showUser
+
+[ 2019-06-08T14:10:25+08:00 ] 127.0.0.1 /index.php/Admin/Index/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0047s ]
+SQL: INSERT INTO `manager` (`adminname`,`password`,`age`,`adminrole`,`state`) VALUES ('ss','ss','ss','1','正常') [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001954s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002004s ]
+
+[ 2019-06-08T14:15:44+08:00 ] 127.0.0.1 /index.php/Admin/Index/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0051s ]
+SQL: INSERT INTO `manager` (`adminname`,`password`,`age`,`adminrole`,`state`) VALUES ('dd','弟弟','ff','1','正常') [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000419s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000437s ]
+
+[ 2019-06-08T18:51:25+08:00 ] 127.0.0.1 /index.php/Admin/Index/css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2019-06-08T18:51:26+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery-3.1.1.min.js
+ERR: 非法操作:js
+
+[ 2019-06-08T18:51:26+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2019-06-08T18:54:07+08:00 ] 127.0.0.1 /index.php/Admin/Index/css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2019-06-08T18:54:12+08:00 ] 127.0.0.1 /index.php/Admin/Index/css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2019-06-08T19:31:55+08:00 ] 127.0.0.1 /index.php/Admin/Index/boot
+ERR: syntax error, unexpected '/'
+
+[ 2019-06-08T19:32:18+08:00 ] 127.0.0.1 /index.php/Admin/Manager/login.html
+ERR: 模板不存在:./Application/Admin/View/Manager/login.html
+
+[ 2019-06-08T19:32:50+08:00 ] 127.0.0.1 /index.php/Admin/Manager/login.html
+ERR: 模板不存在:./Application/Admin/View/Manager/login.html
+
+[ 2019-06-08T19:33:48+08:00 ] 127.0.0.1 /index.php/Admin/Manager/login.html
+ERR: 非法操作:login
+
+[ 2019-06-08T19:34:06+08:00 ] 127.0.0.1 /index.php/Admin/Manager/login.html
+ERR: 非法操作:login
+
+[ 2019-06-08T19:55:55+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004070s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004099s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000980s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001018s ]
+
+[ 2019-06-08T19:56:03+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012272s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012336s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000418s ]
+
+[ 2019-06-08T19:56:15+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000055s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005379s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005412s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000420s ]
+
+[ 2019-06-08T19:56:27+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004407s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004445s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000718s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000742s ]
+
+[ 2019-06-08T19:57:08+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003830s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003861s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000521s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000550s ]
+
+[ 2019-06-08T19:57:15+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003533s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003561s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000407s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000435s ]
+
+[ 2019-06-08T19:58:51+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001590s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004042s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004067s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000524s ]
+
+[ 2019-06-08T20:04:04+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001725s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `manager`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000047s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012156s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012177s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000572s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000592s ]
+
+[ 2019-06-08T20:04:23+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `manager`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000047s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004140s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004162s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000407s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000424s ]
+
+[ 2019-06-08T20:05:22+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `manager`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000040s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003314s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003333s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000388s ]
+
+[ 2019-06-08T20:09:32+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+ERR: syntax error, unexpected ','
+
+[ 2019-06-08T20:10:05+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `manager` WHERE `adminname` = 'wh' AND `password` = '123' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003765s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003788s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000406s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000424s ]
+
+[ 2019-06-08T20:11:04+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `manager` WHERE `adminname` = 'wh' AND `password` = 'wh' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003815s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003838s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000400s ]
+
+[ 2019-06-08T20:16:40+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0505s ]
+SQL: SELECT * FROM `manager` WHERE `adminname` = 'wh' AND `password` = '123' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000454s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000471s ]
+
+[ 2019-06-08T20:17:54+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `manager` WHERE `adminname` = 'wh' AND `password` = '123' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000496s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000514s ]
+
+[ 2019-06-08T20:18:35+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `manager` WHERE `adminname` = 'wh' AND `password` = '123' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000510s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000529s ]
+
+[ 2019-06-08T20:19:37+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `manager` WHERE `adminname` = 'wh' AND `password` = '123' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000637s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000672s ]
+
+[ 2019-06-08T20:20:45+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `manager` WHERE `adminname` = 'wh' AND `password` = '123' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000549s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000569s ]
+
+[ 2019-06-08T20:20:55+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000992s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `manager` WHERE `adminname` = 'wh' AND `password` = '' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001437s ]
+
+[ 2019-06-08T20:21:34+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `manager` WHERE `adminname` = 'wh' AND `password` = '' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005005s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005025s ]
+
+[ 2019-06-08T20:22:07+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `manager` WHERE `adminname` = 'wh' AND `password` = '' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000458s ]
+
+[ 2019-06-08T20:22:32+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `manager` WHERE `adminname` = 'wh' AND `password` = '' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000477s ]
+
+[ 2019-06-08T20:22:54+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `manager` WHERE `adminname` = 'wh' AND `password` = '' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000572s ]
+
+[ 2019-06-08T20:23:10+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003225s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `manager` WHERE `adminname` = 'wh' AND `password` = '' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000419s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000437s ]
+
+[ 2019-06-08T20:23:20+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `manager` WHERE `adminname` = 'wh' AND `password` = '' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000449s ]
+
+[ 2019-06-08T20:23:27+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `manager` WHERE `adminname` = 'wh' AND `password` = '' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000434s ]
+
+[ 2019-06-08T20:23:32+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `manager` WHERE `adminname` = 'wh' AND `password` = '' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000431s ]
+
+[ 2019-06-08T20:25:27+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `manager` WHERE `adminname` = 'wh' AND `password` = '' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000525s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000543s ]
+
+[ 2019-06-08T20:25:35+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001741s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `manager` WHERE `adminname` = 'wh' AND `password` = '' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000522s ]
+
+[ 2019-06-08T20:27:01+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `manager` WHERE `adminname` = 'wh' AND `password` = '' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000476s ]
+
+[ 2019-06-08T20:28:16+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `manager` WHERE `adminname` = 'wh' AND `password` = '' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000542s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000561s ]
+
+[ 2019-06-08T20:29:56+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000629s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `manager` WHERE `adminname` = 'wh' AND `password` = '' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000514s ]
+
+[ 2019-06-08T20:30:09+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `manager` WHERE `adminname` = 'wh' AND `password` = '' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000636s ]
+
+[ 2019-06-08T20:30:32+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `manager` WHERE `adminname` = 'wh' AND `password` = '' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000671s ]
+
+[ 2019-06-08T20:30:57+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001023s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `manager` WHERE `adminname` = 'wh' AND `password` = '' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000487s ]
+
+[ 2019-06-08T20:31:41+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `manager` WHERE `adminname` = 'wh' AND `password` = '' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2019-06-08T20:32:03+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001797s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `manager` WHERE `adminname` = 'wh' AND `password` = '' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000568s ]
+
+[ 2019-06-08T20:32:13+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `manager` WHERE `adminname` = 'wh' AND `password` = '' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000443s ]
+
+[ 2019-06-08T20:32:50+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `manager` WHERE `adminname` = 'wh' AND `password` = '' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000530s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000554s ]
+
+[ 2019-06-08T20:33:23+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001825s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `manager` WHERE `adminname` = 'wh' AND `password` = '' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000513s ]
+
+[ 2019-06-08T20:33:30+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `manager` WHERE `adminname` = 'wh' AND `password` = '' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000532s ]
+
+[ 2019-06-08T20:34:18+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `manager` WHERE `adminname` = 'wh' AND `password` = '' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000440s ]
+
+[ 2019-06-08T20:35:16+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `manager` WHERE `adminname` = 'wh' AND `password` = '' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000436s ]
+
+[ 2019-06-08T20:35:29+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001074s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `manager` WHERE `adminname` = 'wh' AND `password` = '' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000580s ]
+
+[ 2019-06-08T20:35:53+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `manager` WHERE `adminname` = 'wh' AND `password` = '' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000460s ]
+
+[ 2019-06-08T20:36:37+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `manager` WHERE `adminname` = 'wh' AND `password` = '' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000658s ]
+
+[ 2019-06-08T20:36:39+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006560s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `manager` WHERE `adminname` = 'wh' AND `password` = '' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000509s ]
+
+[ 2019-06-08T20:37:19+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `manager` WHERE `adminname` = 'wh' AND `password` = 'wh' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-06-08T20:37:19+08:00 ] 127.0.0.1 /index.php/Admin/Index/boot.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006635s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006654s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000564s ]
+
+[ 2019-06-08T20:38:21+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `manager` WHERE `adminname` = 'wh' AND `password` = 'wh' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2019-06-08T20:38:21+08:00 ] 127.0.0.1 /index.php/Admin/Index/boot.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004211s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004232s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000180s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000374s ]
+
+[ 2019-06-08T20:38:33+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `manager` WHERE `adminname` = 'wh' AND `password` = 'wh' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2019-06-08T20:38:33+08:00 ] 127.0.0.1 /index.php/Admin/Index/boot.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000046s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003267s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003285s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000433s ]
+
+[ 2019-06-08T20:38:50+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `manager` WHERE `adminname` = 'wh' AND `password` = 'wh' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2019-06-08T20:38:50+08:00 ] 127.0.0.1 /index.php/Admin/Index/boot.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005147s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000431s ]
+
+[ 2019-06-08T20:43:30+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `manager` WHERE `adminname` = 'wh' AND `password` = 'wh' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000448s ]
+
+[ 2019-06-08T20:44:07+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001433s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `manager` WHERE `adminname` = 'wh' AND `password` = 'wh' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000455s ]
+
+[ 2019-06-08T20:44:07+08:00 ] 127.0.0.1 /index.php/Admin/Manager/boot
+ERR: 非法操作:boot
+
+[ 2019-06-08T20:45:09+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001332s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `manager` WHERE `adminname` = 'wh' AND `password` = 'wh' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001515s ]
+
+[ 2019-06-08T20:45:09+08:00 ] 127.0.0.1 /index.php/Admin/Manager
+ERR: 非法操作:index
+
+[ 2019-06-08T20:46:16+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `manager` WHERE `adminname` = 'wh' AND `password` = 'wh' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000431s ]
+
+[ 2019-06-08T20:46:16+08:00 ] 127.0.0.1 /index.php/Admin/Manager/Indexboot.html
+ERR: 非法操作:Indexboot
+
+[ 2019-06-08T20:54:22+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `manager` WHERE `adminname` = 'wh' AND `password` = 'wh' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000503s ]
+
+[ 2019-06-08T20:54:22+08:00 ] 127.0.0.1 /index.php/Admin/Manager/%7BU('Admin/Index/boot')%7D
+ERR: 非法操作:{U('Admin
+
+[ 2019-06-08T20:54:39+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `manager` WHERE `adminname` = 'wh' AND `password` = 'wh' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000647s ]
+
+[ 2019-06-08T20:54:50+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010363s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `manager` WHERE `adminname` = 'wh' AND `password` = 'wh' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000527s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000551s ]
+
+[ 2019-06-08T20:55:18+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `manager` WHERE `adminname` = 'wh' AND `password` = '' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000438s ]
+
+[ 2019-06-08T20:55:53+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `manager` WHERE `adminname` = 'wh' AND `password` = '' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000454s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000472s ]
+
+[ 2019-06-08T20:59:06+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminExit.html
+ERR: 非法操作:adminExit
+

@@ -1,0 +1,16 @@
+[ 2019-06-09T20:05:16+08:00 ] 127.0.0.1 /index.php/Admin/User/userSearch.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'like ) AND (  %% )' at line 1
+ [ SQL语句 ] : SELECT * FROM `user` WHERE (  like ) AND (  %% ) 
+
+[ 2019-06-09T20:13:53+08:00 ] 127.0.0.1 /index.php/Admin/User/userList.html
+ERR: syntax error, unexpected '"]); ?>"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';'
+
+[ 2019-06-09T20:30:18+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminRegister.html
+ERR: syntax error, unexpected '=', expecting ')'
+
+[ 2019-06-09T20:30:59+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminRegister.html
+ERR: syntax error, unexpected '=', expecting ')'
+
+[ 2019-06-09T20:31:11+08:00 ] 127.0.0.1 /index.php/Admin/Manager/adminRegister.html
+ERR: syntax error, unexpected ';', expecting ')'
+

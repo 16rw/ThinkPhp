@@ -1,0 +1,6 @@
+[ 2019-06-18T11:54:31+08:00 ] ::1 /tp3/index.php/Manager/adminLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001456s ]
+ERR: 无法加载控制器:Manager
+
